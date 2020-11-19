@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="acceptreqcolor">#1b9e54</color>
+    <color name="rejectreqcolor">#f04337</color>
+    <color name="friend_name">#e0e0e0</color>
+</resources>

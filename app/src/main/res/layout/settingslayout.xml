@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/headerlayout"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <Button
+            android:id="@+id/btn_showuserprofile_settings"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:height="90dp"
+            android:text="show user profile"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <Button
+            android:id="@+id/btn_friendrequest_list"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:height="90dp"
+            android:text="@string/friendreqlist"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="64dp" />
+
+
+        <Button
+            android:id="@+id/btn_addfriend"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:height="90dp"
+            android:text="@string/add_friend"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteY="64dp" />
+
+        <Button
+            android:id="@+id/btn_removefriend"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:height="90dp"
+            android:text="@string/remove_friend"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_deleteaccount"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:height="90dp"
+            android:text="@string/delete_account"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_help"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:height="90dp"
+            android:text="Help"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_signout"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:height="90dp"
+            android:text="@string/signout"
+            android:textColor="@color/friend_name"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
